@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "dev": "nodemon"
-},
+    "dev": "nodemon"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/StivenM4/RIS.git"
@@ -20,7 +20,8 @@
   "homepage": "https://github.com/StivenM4/RIS#readme",
   "dependencies": {
     "ejs": "^4.0.1",
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "mysql2": "^3.16.3"
   },
   "devDependencies": {
     "nodemon": "^3.1.11"
