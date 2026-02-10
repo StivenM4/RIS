@@ -18,6 +18,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 // ===== RUTAS =====
 app.use('/', require('./routes/index.routes'));
 
+
 // ===== SERVER =====
 app.listen(app.get('port'), () => {
   console.log('Servidor en http://localhost:' + app.get('port'));
