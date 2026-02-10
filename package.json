@@ -1,0 +1,28 @@
+{
+  "name": "ris-pyt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "dev": "nodemon"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StivenM4/RIS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/StivenM4/RIS/issues"
+  },
+  "homepage": "https://github.com/StivenM4/RIS#readme",
+  "dependencies": {
+    "ejs": "^4.0.1",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
